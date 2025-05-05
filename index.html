@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DentaCare Website | Design Clone</title>
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- CSS file link  -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Font awesome CDN link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+</head>
+<body>
+
+    <!-- Header start -->
+
+    <header id="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="brand-logo">
+                    <a href="/">Denta<span>Care</span></a>
+                </div>
+                <nav class="nav-links">
+                    <ul>
+                        <li><a class="active" href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Doctors</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#" class="appointment-btn">Make an Appointment</a></li>
+                    </ul>
+                </nav>
+
+                <i class="fa-solid fa-bars" id="hamburger-icon"><span>Menu</span></i>
+            </div>
+        </div>
+    </header>
+
+<main>
+
+    <!-- banner hero section  -->
+
+    <section class="banner-slider">
+        <div class="slider">
+            <div class="slide active">
+              <img src="./assets/images/bg_1.jpg.jpeg" alt="Slide 1">
+              <div class="content">
+                <h2>Modern Achieve Your Desired Perfect Smile</h2>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <button class="appointment-blue-btn">Make an Appointment</button>
+              </div>
+            </div>
+          
+            <div class="slide">
+              <img src="./assets/images/bg_2.jpg.jpeg" alt="Slide 2">
+              <div class="content">
+                <h2>Modern Achieve Your Desired Perfect Smile</h2>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <button class="appointment-blue-btn">Make an Appointment</button>
+              </div>
+            </div>
+            <div class="dots" id="dots"></div>
+          </div>
+          
+    </section>
+
+    <!-- Address and Location section -->
+
+    <section>
+        <div class="container">
+            <div class="denta__care__info">
+                <div class="emergency_case">
+                    <h3>Emergency Cases</h3>
+                    <p>A small river named Duden flows by their place and supplies</p>
+                    <span>+ (123) 456 7890</span>
+                </div>
+
+                <div class="opening_hours">
+                    <h3>Opening Hours</h3>
+                    <p class="opening_hours_time">
+                        <span>Monday - Friday</span>
+                        <span>8:00 - 19:00</span> 
+                    </p>
+                    <p class="opening_hours_time">
+                        <span>Saturday</span>
+                        <span>10:00 - 17:00</span> 
+                    </p>
+                    <p class="opening_hours_time">
+                        <span>Sunday</span>
+                        <span>10:00 - 16:00</span> 
+                    </p>
+                </div>
+
+                <div class="appointment_form">
+                    <h3>Make an Appointment</h3>
+                    <form>
+                        <div class="form_group">
+                          <select name="department">
+                            <option value="">Department</option>
+                          </select>
+                          <input type="text" name="name" placeholder="Name">
+                          <input type="email" name="email" placeholder="Email">
+                        </div>
+                    
+                        <div class="form_group">
+                          <input type="date" name="date" placeholder="Date">
+                          <input type="time" name="time" placeholder="Time">
+                          <input type="tel" name="phone" placeholder="Phone">
+                        </div>
+                    
+                        <div class="form_group">
+                          <button type="submit" class="submit_btn">Make an Appointment</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+
+    <section class="top_bottom_padding">
+        <div class="container">
+            <div class="heading_section">
+                <h3>Our Service Keeps you Smile</h3>
+                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+
+            <div class="service_box_wrapper">
+                <div class="service_box">
+                    <i class="fa-solid fa-tooth"></i>
+                    <h3>Teeth Whitening</h3>
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                </div>
+                <div class="service_box">
+                    <i class="fa-solid fa-tooth"></i>
+                    <h3>Teeth Cleaning</h3>
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                </div>
+                <div class="service_box">
+                    <i class="fa-solid fa-tooth"></i>
+                    <h3>Quality Brackets</h3>
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                </div>
+                <div class="service_box">
+                    <i class="fa-solid fa-tooth"></i>
+                    <h3>Teeth Whitening</h3>
+                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- DentaCare Experience  -->
+
+    <section class="dentacare bottom_padding">
+        <div class="dentacare-left">
+          <img src="./assets/images/about-2.jpg.jpeg" alt="Dentist" />
+        </div>
+        <div class="dentacare-right">
+          <h2>Dentacare with a personal touch</h2>
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+          
+          <div class="features">
+            <div class="feature">
+              <div class="icon">&#10003;</div>
+              <div>
+                <h4>Well Experience Dentist</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+            
+            <div class="feature">
+              <div class="icon">&#10003;</div>
+              <div>
+                <h4>High Technology Facilities</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+            
+            <div class="feature">
+              <div class="icon">&#10003;</div>
+              <div>
+                <h4>Comfortable Clinics</h4>
+                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Meet the team  -->
+
+      <section>
+        <div class="continer">
+          <div class="heading_section bottom_padding">
+              <h3>Meet Our Experience Dentist</h3>
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences</p>
+          </div>
+              <div class="container">
+                <div class="team_card_wrapper">
+                  <div class="single_team_card">
+                      <img src="./assets/images/person_5.jpg.jpeg" alt="" class="team_profile">
+                      <h4 class="name">Tom Smith</h4>
+                      <span class="designgation">Dentist</span>
+                      <p class="bio">Far far away, behind the word mountains, far from the countries Vokalia</p>
+                      <div class="social_links">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-google-plus-g"></i>
+                      </div>
+                  </div>
+
+                  <div class="single_team_card">
+                      <img src="./assets/images/person_6.jpg.jpeg" alt="" class="team_profile">
+                      <h4 class="name">Mark Wilson</h4>
+                      <span class="designgation">Dentist</span>
+                      <p class="bio">Far far away, behind the word mountains, far from the countries Vokalia</p>
+                      <div class="social_links">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-google-plus-g"></i>
+                      </div>
+                  </div>
+
+                  <div class="single_team_card">
+                      <img src="./assets/images/person_7.jpg.jpeg" alt="" class="team_profile">
+                      <h4 class="name">Patrick Jacobson</h4>
+                      <span class="designgation">Dentist</span>
+                      <p class="bio">Far far away, behind the word mountains, far from the countries Vokalia</p>
+                      <div class="social_links">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-google-plus-g"></i>
+                      </div>
+                  </div>
+
+                  <div class="single_team_card">
+                      <img src="./assets/images/person_8.jpg.jpeg" alt="" class="team_profile">
+                      <h4 class="name">Ivan Dorchsner</h4>
+                      <span class="designgation">System Analyst</span>
+                      <p class="bio">Far far away, behind the word mountains, far from the countries Vokalia</p>
+                      <div class="social_links">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-google-plus-g"></i>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="top_bottom_padding">
+      <div class="container">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi vero accusantium sunt sit aliquam ipsum molestias autem perferendis, incidunt cumque necessitatibus cum amet cupiditate, ut accusamus. Animi, quo. Laboriosam, laborum.</p>
+      </div>
+    </section>
+
+   <!-- Achievements Section -->
+  <section class="achievements-section">
+    <div class="container">
+      <div class="achievements-inner">
+        <div class="text-section">
+          <h2>Achievements</h2>
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+        </div>
+        <div class="stats-section">
+          <div class="stat">
+            <h3>14</h3>
+            <p>Years of Experience</p>
+          </div>
+          <div class="stat">
+            <h3>4,500</h3>
+            <p>Qualified Dentist</p>
+          </div>
+          <div class="stat">
+            <h3>4,200</h3>
+            <p>Happy Smiling Customer</p>
+          </div>
+          <div class="stat">
+            <h3>320</h3>
+            <p>Patients Per Year</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!-- Pricing  -->
+
+      <section class="top_bottom_padding">
+        <div class="container">
+          <div class="heading_section bottom_padding">
+              <h3>Our Best Pricing</h3>
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+          </div>
+
+          <div class="price_table_list">
+            <div class="price_table price_basic">
+              <h4 class="price_title">Basic</h4>
+              <p class="price">$24.50 <span class="price_session">/ session</span></p>
+              <ul class="features_list">
+                <li>Diagnostic Services</li>
+                <li>Professional Consultation</li>
+                <li>Tooth Implants</li>
+                <li>Surgical Extractions</li>
+                <li>Teeth Whitening</li>
+              </ul>
+              <button class="order_now_btn">Order Now</button>
+            </div>
+            
+            <div class=" price_table price_standard">
+              <h4 class="price_title">Standard</h4>
+              <p class="price">$34.50 <span class="price_session">/ session</span></p>
+              <ul class="features_list">
+                <li>Diagnostic Services</li>
+                <li>Professional Consultation</li>
+                <li>Tooth Implants</li>
+                <li>Surgical Extractions</li>
+                <li>Teeth Whitening</li>
+              </ul>
+              <button class="order_now_btn">Order Now</button>
+            </div>
+
+            <div class=" price_table price_standard">
+              <h4 class="price_title">Premium</h4>
+              <p class="price">$54.50 <span class="price_session">/ session</span></p>
+              <ul class="features_list">
+                <li>Diagnostic Services</li>
+                <li>Professional Consultation</li>
+                <li>Tooth Implants</li>
+                <li>Surgical Extractions</li>
+                <li>Teeth Whitening</li>
+              </ul>
+              <button class="order_now_btn">Order Now</button>
+            </div>
+
+            <div class=" price_table price_standard">
+              <h4 class="price_title">Platinum</h4>
+              <p class="price">$89.50 <span class="price_session">/ session</span></p>
+              <ul class="features_list">
+                <li>Diagnostic Services</li>
+                <li>Professional Consultation</li>
+                <li>Tooth Implants</li>
+                <li>Surgical Extractions</li>
+                <li>Teeth Whitening</li>
+              </ul>
+              <button class="order_now_btn">Order Now</button>
+            </div>
+          </div>
+          </div>
+    </section>
+
+
+    <!-- Newsletter -->
+
+    <section class="newsletter">
+      <div class="news_letter_content">
+        <h4>Subcribe to our Newsletter</h4>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+        <form class="newsletter_form">
+          <input type="email" name="email" id="emailid" placeholder="Enter email address" required>
+          <input type="button" value="Subscribe">
+        </form>
+      </div>
+    </section>
+
+    <!-- Testimonials  -->
+
+    <section class="top_bottom_padding bg_light">
+      <div class="container">
+        <div class="heading_section bottom_padding">
+          <h3>Testimony</h3>
+          <p>Our Happy Customer Says</p>
+      </div>
+      
+      <div class="testimonial-slider">
+        <div class="testimonial-slide active">
+          <img src="./assets/images/person_1.jpg.jpeg" alt="">
+          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+          <h4>Dennis Green</h4>
+          <span class="client_designation">Marketing Manager</span>
+        </div>
+
+        <div class="testimonial-slide">
+          <img src="./assets/images/person_2.jpg.jpeg" alt="">
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <h4>Eric Tulla</h4>
+          <span class="client_designation">Interface Designer</span>
+        </div>
+
+        <div class="testimonial-slide">
+          <img src="./assets/images/person_3.jpg.jpeg" alt="">
+          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+          <h4>Dennis Green</h4>
+          <span class="client_designation">Marketing Manager</span>
+        </div>
+
+        <div class="testimonial-slide">
+          <img src="./assets/images/person_5.jpg.jpeg" alt="">
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <h4>Eric Tulla</h4>
+          <span class="client_designation">Interface Designer</span>
+        </div>
+      
+        <!-- Arrows -->
+         <div class="arrow-btn">
+            <button class="testimonial-prev">&#10094;</button>
+            <button class="testimonial-next">&#10095;</button>
+         </div>
+       
+        <!-- Dots -->
+        <div class="testimonial-dots"></div>
+      </div>
+      </div>
+    </section>
+
+    <!-- Gallery  -->
+
+    <section class="iamge_gallery bottom_padding">
+      <div class="image_gallery_item">
+        <div class="gallery gallery_one">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="gallery gallery_two">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="gallery gallery_three">
+          <i class="fas fa-search"></i>
+        </div>
+        <div class="gallery gallery_four">
+          <i class="fas fa-search"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Blog  -->
+
+    <section class="latest_blog bottom_padding">
+
+      <div class="heading_section bottom_padding">
+          <h3>Latest Blog</h3>
+          <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+      </div>
+
+      <div class="latest_post_grid container">
+        <div class="blog_post_list">
+            <a href="#" class="featured_image_one">
+              <!-- <Feature img> -->
+            </a>
+          <div class="post_content">
+            <div class="post_meta">
+                <a href="#" class="post_date">Sep, 20, 2025</a>
+                <a href="#" class="post_author">Admin</a>
+                <a href="#" class="post_comments"> <i class="fas fa-comment"></i> 3</a>
+            </div>
+
+            <div class="post_title">
+                <a href="#">Even the all-powerful Pointing has no control about the blind texts</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog_post_list">
+          <a href="#" class="featured_image_two">
+            <!-- <Feature img> -->
+          </a>
+          <div class="post_content">
+            <div class="post_meta">
+                <a href="#" class="post_date">Sep, 20, 2025</a>
+                <a href="#" class="post_author">Admin</a>
+                <a href="#" class="post_comments"> <i class="fas fa-comment"></i> 3</a>
+            </div>
+
+            <div class="post_title">
+                <a href="#">Even the all-powerful Pointing has no control about the blind texts</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="blog_post_list">
+          <a href="#" class="featured_image_three">
+            <!-- <Feature img> -->
+          </a>
+          <div class="post_content">
+            <div class="post_meta">
+                <a href="#" class="post_date">Sep, 20, 2025</a>
+                <a href="#" class="post_author">Admin</a>
+                <a href="#" class="post_comments"> <i class="fas fa-comment"></i> 3</a>
+            </div>
+
+            <div class="post_title">
+                <a href="#">Even the all-powerful Pointing has no control about the blind texts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact us  -->
+     
+    <section class="contact_us">
+      <div class="container contact_information">
+        <div class="contact_details">
+          <h3>DentaCare Procedure & High Quality Services</h3>
+          <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. Because there were thousands of bad Commas, wild Question Marks and devious Semikoli</p>
+
+          <ul>
+            <li>Consectetur adipisicing elit</li>
+            <li>Adipisci repellat accusamus</li>
+            <li>Tempore reprehenderit vitae</li>
+          </ul>
+      </div>
+
+      <div class="contact_form">
+        <form>
+          <h3>Get a Free Quote</h3>
+            <div class="form_fields">
+                  <input type="text" name="fullname" id="full_name" placeholder="Full Name">
+                  <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+            <div class="form_fields">
+                  <input type="tel" name="phone" id="phone" placeholder="Phone">
+                  <input type="text" name="Website" id="website" placeholder="Website">
+            </div>
+            <div class="form_fields">
+                 <textarea name="message" id="message" placeholder="Message" rows="8" cols="43"></textarea>
+            </div>
+            <div class="form_fields">
+                 <input type="button" value="Get a Quote" class="get_quote_btn">
+            </div>
+        </form>
+      </div>
+      </div>
+    </section>
+
+    <!-- our location  -->
+
+    <section class="map">
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.0194190216394!2d74.26150897612631!3d31.49615004833725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3919024d472f9609%3A0x5e8a2500e51ae301!2sMultan%20Chungi!5e0!3m2!1sen!2s!4v1746356886147!5m2!1sen!2s" width="1920" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+</main>
+
+<!-- footer  -->
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer_row">
+      <div class="footer_col">
+        <h4>DentaCare.</h4>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <div class="footer_social_icons">
+          <i class="fa-brands fa-x-twitter"></i>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+
+      <div class="footer_col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+       
+      </div>
+
+      <div class="footer_col">
+        <h4>Recent Blog</h4>
+        <div class="recent_post">
+          <div class="feature-image feature-image_post_one"></div>
+          <div class="post_meta">
+            <p class="post_head_title">Even the all-powerful Pointing has no control about</p>
+            <span class="post_meta_date"><i class="fa-solid fa-calendar-days"></i>Sept 15, 2018</span>
+            <span class="post_meta_date"><i class="fa-solid fa-user"></i>Admin</span>
+            <span class="post_meta_date"><i class="fa-solid fa-comment"></i>19</span>
+          </div>
+        </div>
+        <div class="recent_post">
+          <div class="feature-image feature-image_post_two"></div>
+          <div class="post_meta">
+            <p class="post_head_title">Even the all-powerful Pointing has no control about</p>
+            <span class="post_meta_date"><i class="fa-solid fa-calendar-days"></i>Sept 15, 2018</span>
+            <span class="post_meta_date"><i class="fa-solid fa-user"></i>Admin</span>
+            <span class="post_meta_date"><i class="fa-solid fa-comment"></i>19</span>
+          </div>
+        </div>
+     
+      </div>
+
+      <div class="footer_col">
+        <h4>Office</h4>
+        <div class="icon_boxes">
+          <div class="icon_box">
+            <div class="box_icon">
+              <i class="fas fa-location"></i>
+            </div>
+            <div class="box_content">
+              <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+            </div>
+          </div>
+          <div class="icon_box">
+            <div class="box_icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="box_content">
+              <p>	+2 392 3929 210</p>
+            </div>
+          </div>
+          <div class="icon_box">
+            <div class="box_icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="box_content">
+              <p>	info@yourdomain.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <p class="copyright_text">©2025 | Practice project using a template by Colorlib</p>
+  </div>
+</footer>
+ 
+<script src="script.js"></script>
+</body>
+</html>
