@@ -171,9 +171,6 @@ i.fa-solid.fa-bars span{
   font-weight: 400;
   text-transform: uppercase;
 }
-/* .nav-links{
-  display: block;
-} */
 .hide{
   display: none;
 }
@@ -295,7 +292,6 @@ i.fa-solid.fa-bars span{
 .denta__care__info span{
   font-size: 18px;
 }
-
 .denta__care__info .emergency_case{
   background-color: #2cbcbc;
   padding: 1.5rem;
@@ -323,35 +319,25 @@ i.fa-solid.fa-bars span{
   flex-wrap: wrap;
 }
 
-.appointment_form select,
-.appointment_form input[type="text"],
-.appointment_form input[type="email"],
-.appointment_form input[type="date"],
-.appointment_form input[type="time"],
-.appointment_form input[type="tel"]{
+.appointment_form :is(select,
+  input[type="text"],input[type="email"],input[type="date"],
+  input[type="time"],input[type="tel"]){
   background-color: transparent;
-  color: var(--white)!important;
+  color: var(--white);
   padding-bottom: 12px;
   border: none;
   box-shadow: 0 1px 0 0 #ffffff5e;
   font-size: 14px;
 }
-.appointment_form input:focus,
-.appointment_form textarea:focus,
-.appointment_form select:focus {
+.appointment_form :is(input:focus,textarea:focus,select:focus){
   outline: none;
-  /* box-shadow: none; */
   border: none;
 }
 
 .appointment_form input::placeholder,
-.appointment_form textarea::placeholder,
 .appointment_form select::placeholder {
-  color: white;
-}
-.appointment_form input[type="text"],
-input[type="email"]{
-  color: var(--white)!important;
+  color: var(--white);
+  opacity: 1;
 }
 
 .appointment_form .submit_btn{
@@ -944,10 +930,7 @@ i.fa-solid.fa-tooth {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.form_fields #full_name,
-.form_fields #email,
-.form_fields #phone,
-.form_fields #website{
+.form_fields :is(#full_name,#email,#phone,#website){
   width: 49%;
   margin-bottom: 2rem;
   border: none;
@@ -969,12 +952,17 @@ i.fa-solid.fa-tooth {
   background-color: var(--primary-color);
   cursor: pointer;
   transition: background-color 0.5s ease,transform 0.5s ease;
+  &:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+    transform: scale(1.1);
+  }
 }
-.contact_form .get_quote_btn:hover{
+/* .contact_form .get_quote_btn:hover{
   background-color: transparent;
   color: var(--primary-color);
   transform: scale(1.1);
-}
+} */
 /* map  */
 .map {
   width: 100%;
@@ -1215,6 +1203,11 @@ i.fa-solid {
   color: white;
   padding: 76px 0px;
   height: auto;
+}
+
+/* newsletter  */
+.newsletter {
+  padding: 100px 15px 60px 15px;
 }
 }
 
