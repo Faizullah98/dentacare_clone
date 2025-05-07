@@ -1,24 +1,15 @@
 // scrolldown menu
 
-const scrollThreshold = 200;
+const scrollTop = 200;
 window.addEventListener("scroll", () =>{
     const navbar = document.querySelector("#header");
 
-    if(window.scrollY > scrollThreshold){
+    if(window.scrollY > scrollTop){
         navbar.classList.add("sticky");
     }
     else{
         navbar.classList.remove("sticky");
     }
-})
-
-// mobile menu 
-
-const hamburger = document.querySelector("#hamburger-icon");
-const navLinks = document.querySelector(".nav-links");
-
-hamburger.addEventListener('click', () =>{
-   navLinks.classList.toggle('hide');
 })
 
 // banner slider 
