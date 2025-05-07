@@ -161,16 +161,6 @@ nav ul li .appointment-btn{
 
 /* hamburger menu  */
 
-/* Hamburger button */
-#menu-toggle {
-  display: none;
-}
-.hamburger {
-  display: none;
-  font-size: 24px;
-  cursor: pointer;
-}
-
 i.fa-solid.fa-bars#hamburger-icon{
   display: none;
   color: #808080;
@@ -1115,51 +1105,6 @@ i.fa-solid {
   i.fa-solid.fa-bars#hamburger-icon {
     display: block;
   }
-  /* new start */
-  .hamburger {
-    display: block;
-  }
-
-  .nav-links {
-    display: none;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
-    background: #f9f9f9;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: max-height 0.3s ease, opacity 0.3s ease;
-    overflow: hidden;
-    z-index: 1000;
-  }
-
-  /* When checkbox is checked, show menu */
-  #menu-toggle:checked ~ .nav-links {
-    display: block;
-    animation: slideDown 0.3s ease;
-  }
-
-  .nav-links ul {
-    flex-direction: column;
-    padding: 20px;
-    gap: 15px;
-  }
-
-  .appointment-btn {
-    text-align: center;
-  }
-
-  @keyframes slideDown {
-    from {
-      opacity: 0;
-      transform: translateY(-10px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  /* new end */
   .nav-links{
       position: fixed;
       width: 100%;
