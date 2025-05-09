@@ -1,0 +1,204 @@
+
+@media only screen and (max-width: 768px){
+    .container{
+      padding: 0 20px;
+    }
+    header{
+      background-color: var(--black-color);
+      color: var(--white);
+      padding: 2px 0px;
+    }
+    i.fa-solid.fa-bars#hamburger-icon {
+      display: block;
+    }
+    /* Hamburger menu styling */
+    .hamburger {
+      display: block;
+    }
+  
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background: #f9f9f9;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: max-height 0.3s ease, opacity 0.3s ease;
+      overflow: hidden;
+      z-index: 1000;
+    }
+  
+    /* When checkbox is checked, show menu */
+    #menu-toggle:checked ~ .nav-links {
+      display: block;
+      animation: slideDown 0.3s ease;
+    }
+  
+    .nav-links ul {
+      flex-direction: column;
+      gap: 20px;
+    }
+    nav ul li a{
+        margin-left: 1.6rem;
+    }
+    .appointment-btn {
+      text-align: center;
+    }
+  
+    @keyframes slideDown {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    /* new end */
+    .nav-links{
+        position: fixed;
+        width: 100%;
+        top: 2.5rem;
+        left: 0px;
+        background-color: var(--black-color);
+        color: var(--white);
+        padding: 18px 0px;
+    }
+  
+    .nav-links ul li {
+      display: block;
+      margin-bottom: 1.6rem;
+    }
+    .nav-links ul li a{
+      color: var(--white);
+    }
+    .nav-links .appointment-btn {
+      margin-top: 1rem;
+      display: inline-block;
+    }
+  
+  
+    /* slider  */
+  
+    .slider {
+      height: 700px;
+    }
+    .content {
+      left: 50%;
+      width: 100%;
+      padding: 0px 15px;
+    }
+    .dots {
+      bottom: 60px;
+  }
+   /* address details  */
+  
+   .denta__care__info{
+    grid-template-columns: 1fr;
+    bottom: 40px;
+  }
+  
+  /* experience  */
+  .dentacare {
+    display: flex;
+    flex-direction: column;
+  }
+  .dentacare-left{
+    display: none;
+  }
+  .dentacare-right {
+    padding: 30px 15px;
+  }
+  
+  /* Team  */
+
+  .team_card_wrapper .single_team_card{
+    flex: 0 0 100%;
+  }
+  
+  /* achivements section  */
+  
+  .achievements-inner {
+    flex-direction: column;
+  }
+  
+  .stats-section {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 6rem;
+  }
+  
+  /* contact  */
+
+  .contact_information{
+    grid-template-columns: 1fr;
+  }
+  .contact_us {
+    background-image: linear-gradient(to bottom, var(--primary-color) 50%, #ffffff 50%);
+    padding: 60px 0;
+  }
+  .footer_row {
+    flex-direction: column;
+  }
+  
+  /* global styling  */
+
+  .heading_section {
+    padding-inline: 15px;
+  }
+  
+  /* achivement section */
+
+  .achievements-section {
+    background: linear-gradient(to bottom, #2f89fc 25%, transparent 20%), url(../assets/images/bg_1.jpg.jpeg);
+    background-attachment: none;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 76px 0px;
+    height: auto;
+  }
+  
+  /* newsletter  */
+
+  .newsletter {
+    padding: 100px 15px 60px 15px;
+  }
+
+  /* recent post  */
+  .post_meta{
+    width: 100%;
+  }
+
+  /* About us page start */
+  .about_us_wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+.tab-buttons {
+    flex-direction: column;
+}
+}
+  
+  
+  
+  
+  @media (min-width: 768px) and (max-width: 1300px){
+  
+    /* nav */
+    nav ul li {
+      margin-right: 1rem;
+  }
+  
+    .container{
+      padding: 0px 15px;
+    }
+    /* Team  */
+  .team_card_wrapper .single_team_card{
+    flex: 0 0 47%;
+  }
+  }

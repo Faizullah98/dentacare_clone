@@ -12,11 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <!-- CSS file link  -->
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- Responsive css file  -->
+     <link rel="stylesheet" href="./css/responsive.css">
     <!-- Font awesome CDN link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 </head>
 <body>
-
     <!-- Header start -->
     <header id="header">
       <div class="container">
@@ -24,7 +25,7 @@
           <div class="brand-logo">
             <a href="/">Denta<span>Care</span></a>
           </div>
-    
+
           <!-- Checkbox + Label for hamburger -->
           <input type="checkbox" id="menu-toggle" />
           <label for="menu-toggle" class="hamburger">
@@ -34,9 +35,9 @@
           <!-- Navigation Menu -->
           <nav class="nav-links">
             <ul>
-              <li><a class="active" href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
+              <li><a class="active" href="/">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
               <li><a href="#">Doctors</a></li>
               <li><a href="#">Blog</a></li>
               <li><a href="#">Contact</a></li>
@@ -108,6 +109,10 @@
                         <div class="form_group">
                           <select name="department">
                             <option value="">Department</option>
+                            <option value="">Teeth Whitening</option>
+                            <option value="">Teeth Cleanin</option>
+                            <option value="">Quality Brackets</option>
+                            <option value="">Modern Anesthetic</option>
                           </select>
                           <input type="text" name="name" placeholder="Name">
                           <input type="email" name="email" placeholder="Email">
@@ -642,7 +647,7 @@
       </div>
     </div>
 
-    <p class="copyright_text">©2025 | Practice project using a template by Colorlib</p>
+    <p class="copyright_text">©2025 | Practice project using a template by <a class="template_credit" href="https://preview.colorlib.com/theme/dentacare/" target="_blank">Colorlib</a></p>
   </div>
 </footer>
  
