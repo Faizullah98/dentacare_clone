@@ -3,6 +3,9 @@
     .container{
       padding: 0 20px;
     }
+    .margin-bottom-100px{
+      margin-bottom: 100px;
+    }
     header{
       background-color: var(--black-color);
       color: var(--white);
@@ -129,6 +132,11 @@
     text-align: center;
     margin-top: 6rem;
   }
+
+  /* Price  */
+  .price_table_list {
+    gap: 3rem;
+}
   
   /* contact  */
 
@@ -181,6 +189,34 @@
 }
 .tab-buttons {
     flex-direction: column;
+}
+.about_hero_image {
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+/* contact us page  */
+.address{
+  flex-direction: column;
+}
+.address > p{
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+.contact_details{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.form_map {
+  grid-template-columns: 1fr;
+}
+.blog_posts_lists {
+    flex-direction: column;
+}
+.pagination {
+    margin-top: 40px;
 }
 }
   
