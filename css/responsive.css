@@ -160,7 +160,7 @@
   /* achivement section */
 
   .achievements-section {
-    background: linear-gradient(to bottom, #2f89fc 25%, transparent 20%), url(../assets/images/bg_1.jpg.jpeg);
+    background: linear-gradient(to bottom, #2f89fc 25%, transparent 20%), url("../assets/images/bg_1.jpg");
     background-attachment: none;
     background-size: cover;
     background-position: center;
