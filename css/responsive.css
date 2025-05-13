@@ -218,6 +218,11 @@
 .pagination {
     margin-top: 40px;
 }
+/* single blog post  */
+.publisher_card_container {
+    padding: 50px;
+    flex-direction: column;
+}
 }
   
   

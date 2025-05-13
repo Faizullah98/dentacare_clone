@@ -1314,7 +1314,7 @@ i.fa-solid {
 .blog_post_feature_image_six {
     height: 350px;
     width: 100%;
-    background: url(/assets/images/image_6.jpg);
+    background: url(../assets/images/image_6.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1465,4 +1465,70 @@ i.fa-solid {
 .pagination ul li a{
   text-decoration: none;
   color: var(--primary-color);
+}
+
+/* single blog post  */
+.blog_post_wrapper article section{
+  margin-bottom: 60px;
+}
+.blog_post_wrapper .post_heading{
+  font-weight: 400;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: var(--black-color);
+}
+.blog_post_wrapper .post_para{
+  color: #808080;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.tags_list{
+  margin-top: 50px;
+}
+.tags_list ul li{
+  list-style: none;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  padding: 4px 12px;
+  border-radius: 4px;
+  margin-right: 6px;
+}
+.tags_list ul li a{
+  color: var(--black-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  display: inline-block;
+}
+.publisher_card_container{
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px;
+  gap: 2rem;
+  margin-top: 50px;
+}
+.publisher_card_container .profile_image img{
+  border-radius: 50%;
+}
+.bio h4{
+  font-size: 20px;
+  color: var(--black-color);
+  font-weight: 400;
+}
+.bio p{
+  color: #808080;
+  margin-top: 15px;
+  font-size: 15px;
+}
+.comment_section .leave_a_comment input{
+  width: 100%;
+}
+.comment_section {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    height: 450px;
 }
